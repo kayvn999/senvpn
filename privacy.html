@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chính sách bảo mật – SEN VPN</title>
+  <title>Privacy Policy – SEN VPN</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -23,15 +23,16 @@
       align-items: center;
       gap: 10px;
       margin-bottom: 16px;
+      text-decoration: none;
     }
     header .logo-icon {
       width: 44px; height: 44px;
-      background: rgba(255,255,255,0.2);
       border-radius: 12px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 22px;
+      overflow: hidden;
+      flex-shrink: 0;
     }
-    header .logo-text { font-size: 22px; font-weight: 800; letter-spacing: -0.5px; }
+    header .logo-icon img { width: 100%; height: 100%; object-fit: cover; }
+    header .logo-text { font-size: 22px; font-weight: 800; letter-spacing: -0.5px; color: #fff; }
     header h1 { font-size: clamp(24px, 5vw, 34px); font-weight: 800; letter-spacing: -0.5px; }
     header p { margin-top: 8px; opacity: 0.85; font-size: 15px; }
     .container { max-width: 760px; margin: 0 auto; padding: 40px 24px 80px; }
@@ -99,277 +100,277 @@
 <body>
 
 <header>
-  <div class="logo">
-    <div class="logo-icon">🛡️</div>
+  <a href="index.html" class="logo">
+    <div class="logo-icon"><img src="https://raw.githubusercontent.com/kayvn999/senvpn/refs/heads/main/senvpn.png" alt="SEN VPN" /></div>
     <span class="logo-text">SEN VPN</span>
-  </div>
-  <h1>Chính sách bảo mật</h1>
-  <p>Privacy Policy · Cập nhật: 21/04/2026</p>
+  </a>
+  <h1>Privacy Policy</h1>
+  <p>Last updated: April 21, 2026</p>
 </header>
 
 <div class="container">
-  <p class="updated">Có hiệu lực từ: 21/04/2026 · Áp dụng cho ứng dụng SEN VPN trên Android</p>
+  <p class="updated">Effective date: April 21, 2026 · Applies to SEN VPN on Android</p>
 
-  <!-- 1. Tổng quan -->
+  <!-- 1. Overview -->
   <div class="card">
     <div class="card-header">
       <div class="card-icon purple">📋</div>
-      <h2>1. Tổng quan</h2>
+      <h2>1. Overview</h2>
     </div>
-    <p>SEN VPN ("chúng tôi", "ứng dụng") do cá nhân phát triển và vận hành. Chính sách bảo mật này mô tả cách chúng tôi thu thập, sử dụng, lưu trữ và bảo vệ thông tin của bạn khi sử dụng ứng dụng SEN VPN trên Android.</p>
-    <p style="margin-top:10px;">Bằng cách sử dụng ứng dụng, bạn đồng ý với chính sách này. Nếu không đồng ý, vui lòng ngừng sử dụng ứng dụng.</p>
-    <div class="highlight green">Chúng tôi không ghi lại, theo dõi, lưu trữ hay bán lịch sử duyệt web, URL, tên miền hoặc nội dung traffic VPN của bạn.</div>
+    <p>SEN VPN ("we", "us", "app") is an independently developed and operated application. This Privacy Policy describes how we collect, use, store, and protect your information when you use SEN VPN on Android.</p>
+    <p style="margin-top:10px;">By using the app, you agree to this policy. If you do not agree, please discontinue use of the application.</p>
+    <div class="highlight green">We do not log, monitor, store, or sell your browsing history, URLs, domain names, or any VPN traffic content.</div>
   </div>
 
-  <!-- 2. Thông tin thu thập -->
+  <!-- 2. Information We Collect -->
   <div class="card">
     <div class="card-header">
       <div class="card-icon blue">📦</div>
-      <h2>2. Thông tin chúng tôi thu thập</h2>
+      <h2>2. Information We Collect</h2>
     </div>
     <table>
       <thead>
         <tr>
-          <th>Loại dữ liệu</th>
-          <th>Chi tiết</th>
-          <th>Mục đích</th>
+          <th>Data Type</th>
+          <th>Details</th>
+          <th>Purpose</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><strong>Email</strong></td>
-          <td>Địa chỉ email từ Google Sign-In</td>
-          <td>Xác thực tài khoản</td>
+          <td><strong>Email address</strong></td>
+          <td>Obtained via Google Sign-In</td>
+          <td>Account authentication</td>
         </tr>
         <tr>
           <td><strong>User ID</strong></td>
-          <td>Firebase UID duy nhất</td>
-          <td>Quản lý tài khoản & VIP</td>
+          <td>Unique Firebase UID</td>
+          <td>Account & VIP management</td>
         </tr>
         <tr>
-          <td><strong>Thống kê kết nối</strong></td>
-          <td>Thời gian kết nối, server đã dùng, dung lượng data (MB)</td>
-          <td>Hiển thị lịch sử, quản lý gói</td>
+          <td><strong>Connection stats</strong></td>
+          <td>Session duration, server used, data transferred (MB)</td>
+          <td>Usage history, plan management</td>
         </tr>
         <tr>
-          <td><strong>Thông tin mua hàng</strong></td>
-          <td>Trạng thái và lịch sử đăng ký VIP</td>
-          <td>Kích hoạt tính năng VIP</td>
+          <td><strong>Purchase info</strong></td>
+          <td>VIP subscription status and history</td>
+          <td>Activating VIP features</td>
         </tr>
         <tr>
           <td><strong>Device ID</strong></td>
-          <td>Mã định danh thiết bị Android</td>
-          <td>Quảng cáo (AdMob), analytics</td>
+          <td>Android advertising identifier</td>
+          <td>Advertising (AdMob), analytics</td>
         </tr>
         <tr>
           <td><strong>Crash logs</strong></td>
-          <td>Báo cáo lỗi ứng dụng</td>
-          <td>Sửa lỗi, cải thiện ứng dụng</td>
+          <td>App crash and error reports</td>
+          <td>Bug fixing, app improvement</td>
         </tr>
         <tr>
           <td><strong>App interactions</strong></td>
-          <td>Cách người dùng tương tác với app</td>
+          <td>How users interact with the app</td>
           <td>Firebase Analytics</td>
         </tr>
       </tbody>
     </table>
   </div>
 
-  <!-- 3. Không thu thập -->
+  <!-- 3. What We Don't Collect -->
   <div class="card">
     <div class="card-header">
       <div class="card-icon green">🚫</div>
-      <h2>3. Những gì chúng tôi KHÔNG thu thập</h2>
+      <h2>3. What We Do NOT Collect</h2>
     </div>
     <ul>
-      <li>Lịch sử duyệt web, URL hay tên miền bạn truy cập qua VPN</li>
-      <li>Nội dung dữ liệu truyền qua tunnel VPN</li>
-      <li>Địa chỉ IP đích của kết nối</li>
-      <li>Vị trí địa lý chính xác (GPS)</li>
-      <li>Danh bạ, tin nhắn, ảnh hoặc file trên thiết bị</li>
-      <li>Thông tin thẻ tín dụng (xử lý bởi Google Play)</li>
+      <li>Browsing history, URLs, or domain names accessed through VPN</li>
+      <li>Content of data transmitted through the VPN tunnel</li>
+      <li>Destination IP addresses of your connections</li>
+      <li>Precise geographic location (GPS)</li>
+      <li>Contacts, messages, photos, or files on your device</li>
+      <li>Credit card or payment information (handled entirely by Google Play)</li>
     </ul>
-    <div class="highlight green">Traffic VPN được mã hóa end-to-end — chúng tôi không thể và không đọc nội dung kết nối của bạn.</div>
+    <div class="highlight green">VPN traffic is end-to-end encrypted — we cannot and do not read the content of your connections.</div>
   </div>
 
-  <!-- 4. Dịch vụ bên thứ ba -->
+  <!-- 4. Third-Party Services -->
   <div class="card">
     <div class="card-header">
       <div class="card-icon orange">🔗</div>
-      <h2>4. Dịch vụ bên thứ ba & dữ liệu được chia sẻ</h2>
+      <h2>4. Third-Party Services & Data Sharing</h2>
     </div>
-    <p>Ứng dụng tích hợp các dịch vụ bên thứ ba sau. Mỗi dịch vụ có chính sách bảo mật riêng:</p>
+    <p>The app integrates the following third-party services, each with their own privacy policy:</p>
     <table>
       <thead>
         <tr>
-          <th>Dịch vụ</th>
-          <th>Dữ liệu được chia sẻ</th>
-          <th>Mục đích</th>
+          <th>Service</th>
+          <th>Data Shared</th>
+          <th>Purpose</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td><strong>Google Firebase Auth</strong></td>
           <td>Email, User ID</td>
-          <td>Xác thực đăng nhập</td>
+          <td>Login authentication</td>
         </tr>
         <tr>
           <td><strong>Firebase Analytics</strong></td>
           <td>App interactions, Device ID</td>
-          <td>Phân tích sử dụng</td>
+          <td>Usage analysis</td>
         </tr>
         <tr>
           <td><strong>Firebase Crashlytics</strong></td>
-          <td>Crash logs, Device info</td>
-          <td>Phát hiện & sửa lỗi</td>
+          <td>Crash logs, device info</td>
+          <td>Error detection & fixing</td>
         </tr>
         <tr>
           <td><strong>Google AdMob</strong></td>
-          <td>Device ID, App interactions</td>
-          <td>Hiển thị quảng cáo (tài khoản Free)</td>
+          <td>Device ID, app interactions</td>
+          <td>Display ads (Free accounts)</td>
         </tr>
         <tr>
           <td><strong>RevenueCat</strong></td>
-          <td>User ID, Purchase history</td>
-          <td>Quản lý đăng ký VIP</td>
+          <td>User ID, purchase history</td>
+          <td>VIP subscription management</td>
         </tr>
         <tr>
           <td><strong>Google Play Billing</strong></td>
           <td>Purchase history</td>
-          <td>Xử lý thanh toán</td>
+          <td>Payment processing</td>
         </tr>
       </tbody>
     </table>
-    <div class="highlight" style="margin-top:14px;">Chúng tôi không bán dữ liệu cá nhân cho bất kỳ bên thứ ba nào ngoài danh sách trên.</div>
+    <div class="highlight" style="margin-top:14px;">We do not sell your personal data to any third party outside the list above.</div>
   </div>
 
-  <!-- 5. Quảng cáo -->
+  <!-- 5. Advertising -->
   <div class="card">
     <div class="card-header">
       <div class="card-icon yellow">📢</div>
-      <h2>5. Quảng cáo (AdMob)</h2>
+      <h2>5. Advertising (AdMob)</h2>
     </div>
-    <p>Tài khoản Free hiển thị quảng cáo thông qua Google AdMob. AdMob có thể sử dụng Device ID và dữ liệu sử dụng app để hiển thị quảng cáo phù hợp.</p>
+    <p>Free accounts display ads via Google AdMob. AdMob may use Device ID and app usage data to serve personalized ads.</p>
     <ul style="margin-top:10px;">
-      <li>Tài khoản VIP không hiển thị quảng cáo</li>
-      <li>Bạn có thể opt-out khỏi quảng cáo cá nhân hóa trong <strong>Cài đặt Android → Google → Quảng cáo</strong></li>
+      <li>VIP accounts are completely ad-free</li>
+      <li>You can opt out of personalized ads in <strong>Android Settings → Google → Ads</strong></li>
     </ul>
-    <div class="highlight">Chính sách quảng cáo Google: <a href="https://policies.google.com/technologies/ads" style="color:#4f46e5;">policies.google.com/technologies/ads</a></div>
+    <div class="highlight">Google Ads Policy: <a href="https://policies.google.com/technologies/ads" style="color:#4f46e5;">policies.google.com/technologies/ads</a></div>
   </div>
 
-  <!-- 6. Đăng ký VIP & thanh toán -->
+  <!-- 6. VIP Subscription & Billing -->
   <div class="card">
     <div class="card-header">
       <div class="card-icon purple">💎</div>
-      <h2>6. Đăng ký VIP & Thanh toán</h2>
+      <h2>6. VIP Subscription &amp; Billing</h2>
     </div>
     <ul>
-      <li>Thanh toán được xử lý hoàn toàn bởi <strong>Google Play Billing</strong> — chúng tôi không lưu thông tin thẻ tín dụng</li>
-      <li>Trạng thái đăng ký được quản lý bởi <strong>RevenueCat</strong></li>
-      <li>Gói đăng ký tự động gia hạn trừ khi bạn hủy trước 24 giờ trước kỳ gia hạn</li>
-      <li>Hủy đăng ký bất kỳ lúc nào trong <strong>Google Play → Đăng ký</strong></li>
+      <li>Payments are processed entirely by <strong>Google Play Billing</strong> — we never store credit card information</li>
+      <li>Subscription status is managed by <strong>RevenueCat</strong></li>
+      <li>Subscriptions auto-renew unless cancelled at least 24 hours before the renewal date</li>
+      <li>Cancel anytime via <strong>Google Play → Subscriptions</strong></li>
     </ul>
   </div>
 
-  <!-- 7. Bảo mật dữ liệu -->
+  <!-- 7. Data Security -->
   <div class="card">
     <div class="card-header">
       <div class="card-icon blue">🔒</div>
-      <h2>7. Bảo mật dữ liệu</h2>
+      <h2>7. Data Security</h2>
     </div>
     <ul>
-      <li>Tất cả dữ liệu truyền đi được mã hóa bằng <strong>HTTPS/TLS</strong></li>
-      <li>Tunnel VPN sử dụng giao thức <strong>OpenVPN</strong> với mã hóa AES-256</li>
-      <li>Dữ liệu tài khoản lưu trữ trên <strong>Google Firebase</strong> với bảo mật tiêu chuẩn Google</li>
-      <li>Chúng tôi không lưu mật khẩu — xác thực qua Google OAuth</li>
+      <li>All data in transit is encrypted via <strong>HTTPS/TLS</strong></li>
+      <li>VPN tunnel uses the <strong>OpenVPN</strong> protocol with AES-256 encryption</li>
+      <li>Account data is stored on <strong>Google Firebase</strong> with Google-standard security</li>
+      <li>We do not store passwords — authentication is handled via Google OAuth</li>
     </ul>
   </div>
 
-  <!-- 8. Lưu giữ dữ liệu -->
+  <!-- 8. Data Retention -->
   <div class="card">
     <div class="card-header">
       <div class="card-icon gray">🗓️</div>
-      <h2>8. Thời gian lưu giữ dữ liệu</h2>
+      <h2>8. Data Retention</h2>
     </div>
     <ul>
-      <li><strong>Dữ liệu tài khoản:</strong> Lưu giữ cho đến khi bạn yêu cầu xóa tài khoản</li>
-      <li><strong>Lịch sử kết nối:</strong> Lưu tối đa 90 ngày</li>
-      <li><strong>Crash logs:</strong> Lưu tối đa 90 ngày trong Firebase Crashlytics</li>
-      <li><strong>Dữ liệu analytics:</strong> Lưu theo cài đặt mặc định của Google Analytics (26 tháng)</li>
+      <li><strong>Account data:</strong> Retained until you request account deletion</li>
+      <li><strong>Connection history:</strong> Retained for up to 90 days</li>
+      <li><strong>Crash logs:</strong> Retained for up to 90 days in Firebase Crashlytics</li>
+      <li><strong>Analytics data:</strong> Retained per Google Analytics default settings (26 months)</li>
     </ul>
   </div>
 
-  <!-- 9. Quyền ứng dụng -->
+  <!-- 9. App Permissions -->
   <div class="card">
     <div class="card-header">
       <div class="card-icon orange">📱</div>
-      <h2>9. Quyền ứng dụng yêu cầu</h2>
+      <h2>9. App Permissions</h2>
     </div>
     <table>
       <thead>
-        <tr><th>Quyền</th><th>Lý do</th></tr>
+        <tr><th>Permission</th><th>Reason</th></tr>
       </thead>
       <tbody>
-        <tr><td><strong>VPN Service</strong></td><td>Bắt buộc để tạo tunnel VPN</td></tr>
-        <tr><td><strong>Foreground Service</strong></td><td>Duy trì kết nối VPN khi app chạy nền</td></tr>
-        <tr><td><strong>Internet</strong></td><td>Kết nối đến VPN server</td></tr>
-        <tr><td><strong>Network State</strong></td><td>Kiểm tra trạng thái mạng</td></tr>
-        <tr><td><strong>Notifications</strong></td><td>Hiển thị trạng thái kết nối VPN (tùy chọn)</td></tr>
-        <tr><td><strong>Biometric</strong></td><td>Khóa app bằng vân tay/Face ID (tùy chọn)</td></tr>
-        <tr><td><strong>Vibrate</strong></td><td>Rung khi có thông báo kết nối</td></tr>
+        <tr><td><strong>VPN Service</strong></td><td>Required to create the VPN tunnel</td></tr>
+        <tr><td><strong>Foreground Service</strong></td><td>Maintains VPN connection while app runs in background</td></tr>
+        <tr><td><strong>Internet</strong></td><td>Connect to VPN servers</td></tr>
+        <tr><td><strong>Network State</strong></td><td>Check network connectivity</td></tr>
+        <tr><td><strong>Notifications</strong></td><td>Display VPN connection status (optional)</td></tr>
+        <tr><td><strong>Biometric</strong></td><td>Lock app with fingerprint/Face ID (optional)</td></tr>
+        <tr><td><strong>Vibrate</strong></td><td>Vibrate on connection notifications</td></tr>
       </tbody>
     </table>
   </div>
 
-  <!-- 10. Quyền người dùng -->
+  <!-- 10. Your Rights -->
   <div class="card">
     <div class="card-header">
       <div class="card-icon blue">👤</div>
-      <h2>10. Quyền của bạn</h2>
+      <h2>10. Your Rights</h2>
     </div>
     <ul>
-      <li><strong>Xem dữ liệu:</strong> Yêu cầu xem thông tin chúng tôi đang lưu về bạn</li>
-      <li><strong>Xóa tài khoản:</strong> Yêu cầu xóa tài khoản và toàn bộ dữ liệu liên quan</li>
-      <li><strong>Tắt thông báo:</strong> Bất kỳ lúc nào trong phần Cài đặt ứng dụng</li>
-      <li><strong>Opt-out quảng cáo:</strong> Tắt quảng cáo cá nhân hóa trong Cài đặt Android</li>
-      <li><strong>Hủy đăng ký:</strong> Bất kỳ lúc nào qua Google Play</li>
+      <li><strong>Access:</strong> Request to see the information we hold about you</li>
+      <li><strong>Delete account:</strong> Request deletion of your account and all associated data</li>
+      <li><strong>Disable notifications:</strong> Anytime in the app Settings</li>
+      <li><strong>Opt out of ads:</strong> Disable personalized ads in Android Settings</li>
+      <li><strong>Cancel subscription:</strong> Anytime via Google Play</li>
     </ul>
-    <div class="highlight">Để xóa tài khoản hoặc yêu cầu dữ liệu, liên hệ: <strong>contact.phapmedia@gmail.com</strong></div>
+    <div class="highlight">To delete your account or request your data, contact: <strong>contact.phapmedia@gmail.com</strong></div>
   </div>
 
-  <!-- 11. Trẻ em -->
+  <!-- 11. Children -->
   <div class="card">
     <div class="card-header">
       <div class="card-icon red">🔞</div>
-      <h2>11. Người dùng dưới 18 tuổi</h2>
+      <h2>11. Users Under 18</h2>
     </div>
-    <p>Ứng dụng SEN VPN không dành cho người dùng dưới 18 tuổi. Chúng tôi không cố ý thu thập thông tin từ trẻ em hoặc người chưa thành niên. Nếu phát hiện có dữ liệu của người dưới 18 tuổi, chúng tôi sẽ xóa ngay lập tức.</p>
+    <p>SEN VPN is not intended for users under 18 years of age. We do not knowingly collect information from children or minors. If we discover that data from a person under 18 has been collected, we will delete it immediately.</p>
   </div>
 
-  <!-- 12. Thay đổi chính sách -->
+  <!-- 12. Policy Changes -->
   <div class="card">
     <div class="card-header">
       <div class="card-icon gray">📝</div>
-      <h2>12. Thay đổi chính sách</h2>
+      <h2>12. Changes to This Policy</h2>
     </div>
-    <p>Chúng tôi có thể cập nhật chính sách bảo mật này theo thời gian. Khi có thay đổi quan trọng, chúng tôi sẽ thông báo qua ứng dụng hoặc cập nhật ngày "Có hiệu lực từ" ở đầu trang. Tiếp tục sử dụng ứng dụng sau khi thay đổi đồng nghĩa với việc bạn chấp nhận chính sách mới.</p>
+    <p>We may update this Privacy Policy from time to time. When significant changes are made, we will notify you through the app or by updating the "Effective date" at the top of this page. Continued use of the app after changes constitutes acceptance of the new policy.</p>
   </div>
 
-  <!-- 13. Liên hệ -->
+  <!-- 13. Contact -->
   <div class="card">
     <div class="card-header">
       <div class="card-icon green">✉️</div>
-      <h2>13. Liên hệ</h2>
+      <h2>13. Contact Us</h2>
     </div>
-    <p>Mọi câu hỏi, yêu cầu xóa tài khoản hoặc khiếu nại về quyền riêng tư, vui lòng liên hệ:</p>
-    <div class="highlight">📧 contact.phapmedia@gmail.com<br/>Chúng tôi sẽ phản hồi trong vòng 7 ngày làm việc.</div>
+    <p>For any questions, account deletion requests, or privacy concerns, please contact us:</p>
+    <div class="highlight">📧 contact.phapmedia@gmail.com<br/>We will respond within 7 business days.</div>
   </div>
 
 </div>
 
 <footer>
-  <p>© 2026 SEN VPN · <a href="index.html">Trang chủ</a> · <a href="privacy.html">Chính sách bảo mật</a></p>
-  <p style="margin-top:8px;">Package: com.senvpn.app · Nền tảng: Android</p>
+  <p>© 2026 SEN VPN · <a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy</a></p>
+  <p style="margin-top:8px;">Package: com.senvpn.app · Platform: Android</p>
 </footer>
 
 </body>
