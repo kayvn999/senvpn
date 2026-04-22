@@ -39,10 +39,12 @@
     }
     .nav-logo-icon {
       width: 36px; height: 36px;
-      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
       border-radius: 10px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 18px;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .nav-logo-icon img {
+      width: 100%; height: 100%; object-fit: cover;
     }
     .nav-link {
       font-size: 14px; color: var(--muted); text-decoration: none;
@@ -97,12 +99,13 @@
     }
     .hero-app-icon {
       width: 100px; height: 100px;
-      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
       border-radius: 28px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 52px;
+      overflow: hidden;
       margin: 0 auto 32px;
       box-shadow: 0 20px 50px rgba(108,99,255,0.35);
+    }
+    .hero-app-icon img {
+      width: 100%; height: 100%; object-fit: cover;
     }
     .btn-primary {
       display: inline-flex; align-items: center; gap: 10px;
@@ -247,7 +250,7 @@
 <!-- NAV -->
 <nav>
   <a href="index.html" class="nav-logo">
-    <div class="nav-logo-icon">🛡️</div>
+    <div class="nav-logo-icon"><img src="https://raw.githubusercontent.com/kayvn999/senvpn/refs/heads/main/senvpn.png" alt="SEN VPN" /></div>
     SEN VPN
   </a>
   <a href="privacy.html" class="nav-link">Chính sách bảo mật</a>
@@ -255,7 +258,7 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-app-icon">🛡️</div>
+  <div class="hero-app-icon"><img src="https://raw.githubusercontent.com/kayvn999/senvpn/refs/heads/main/senvpn.png" alt="SEN VPN" /></div>
   <div class="hero-badge">⚡ Nhanh · Bảo mật · Riêng tư</div>
   <h1>Kết nối <span>an toàn</span><br/>ở bất cứ đâu</h1>
   <p>SEN VPN bảo vệ kết nối internet của bạn với giao thức OpenVPN và server toàn cầu.</p>
@@ -335,7 +338,8 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-logo">
-    🛡️ SEN VPN
+    <img src="https://raw.githubusercontent.com/kayvn999/senvpn/refs/heads/main/senvpn.png" alt="SEN VPN" style="width:28px;height:28px;border-radius:8px;object-fit:cover;" />
+    SEN VPN
   </div>
   <p>Bảo vệ quyền riêng tư của bạn trên internet</p>
   <p>© 2026 SEN VPN. All rights reserved.</p>
